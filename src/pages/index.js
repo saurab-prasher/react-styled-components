@@ -9,6 +9,7 @@ import {
   homObjOne2,
   homObjOne3,
 } from "../components/InfoSection/Data";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +25,7 @@ const Home = () => {
       <InfoSection {...homObjOne2} />
       <Services />
       <InfoSection {...homObjOne3} />
+      <Footer />
     </>
   );
 };

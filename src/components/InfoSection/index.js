@@ -27,8 +27,10 @@ const InfoSection = ({
   darkText,
   topLine,
   lightBg,
+  dark,
+  dark2,
+  primary,
 }) => {
-  console.log(img.default);
   return (
     <>
       <InfoContainer id={id} lightBg={lightBg}>
@@ -44,11 +46,11 @@ const InfoSection = ({
                     smooth={true}
                     duration={500}
                     spy={true}
-                    primary={true}
+                    primary={primary ? 1 : 0}
                     exact="true"
                     to="/home"
-                    dark={true}
-                    dark2={true}
+                    dark={dark ? 1 : 0}
+                    dark2={dark2 ? 1 : 0}
                   >
                     {buttonLabel}
                   </Button>
