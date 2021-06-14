@@ -48,7 +48,7 @@ const InfoSection = ({
                     spy={true}
                     primary={primary ? 1 : 0}
                     exact="true"
-                    to="/home"
+                    to="home"
                     dark={dark ? 1 : 0}
                     dark2={dark2 ? 1 : 0}
                   >
